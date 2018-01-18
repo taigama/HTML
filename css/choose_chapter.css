@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-choose-chapter {
+	max-width: 100%;
+}
+
+.btn-choose-chapter {
+	height: 30px;
+	width: 100%;
+}
+
+.select-choose-chapter {
+	height: 30px;
+	width: 100%;
+}
+
+.image-center {
+	display: block;
+    margin: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.image-margin {
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+
+
+.space {
+	height: 50px;
+}

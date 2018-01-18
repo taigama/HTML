@@ -1,0 +1,41 @@
+
+
+
+
+var ABDZone3rd1489562973 = new Array();
+var ABDWeight3rd1489562973 = new Array();
+
+AbdVNPC.rotatorPercentAd("ADB3rdCookie1489562973", ABDZone3rd1489562973, ABDWeight3rd1489562973, 'InPage_1489562973');
+
+
+
+// include common templates //
+if(AbdVNPC.getCookie('_abd_mck')=='' && /(iPhone|iPad|iPod).+OS\s(7|8|9|10)/i.test(navigator.userAgent)
+    && navigator.userAgent.indexOf('Safari')!=-1 && navigator.userAgent.indexOf('Chrome')==-1){
+  AbdVNPC.trackingLink('MMC','//delivery.adnetwork.vn/mck.html');
+  AbdVNPC.setCookie('_abd_mck', '1', 365);
+}
+var _comscore = _comscore || [];
+_comscore.push({ c1: "8", c2: "12346470" ,c3: "1000000000000000008" ,c4: "truyentranh.net" ,c6: "Masthead_970_250" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+
+
+
+
+
+var sMarket = 9;
+
+var GammaTracker = GammaTracker || [];
+GammaTracker.push({ acc: sMarket, uid: "1q7y02cvy55" });
+//(function(){
+//var c=document.createElement('script');c.type='text/javascript';c.async=true;
+//c.src=('https:' == document.location.protocol ? 'https://' : 'http://') + 'stc.gammaplatform.com/tracker.js';
+//var el=document.getElementsByTagName('script')[0];el.parentNode.insertBefore(c,el);
+//})();
+
+
+AbdVNPCTracking.Link('https://pixel.tapad.com/idsync/ex/receive?partner_id=2412&partner_device_id=1q7y02cvy55');

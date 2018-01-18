@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang xem truyen</title>
+
+	<!-- Bootstrap -->
+	<!-- <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/choose_chapter.css" rel="stylesheet" type="text/css"> 
+	<link href="css/general.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/player.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.auto-complete.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/yamm.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.mCustomScrollbar.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
+
+	<!-- Color of background -->
+	<link href="css/general.css" rel="stylesheet" type="text/css">
+	<link href="css/kit.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/choose_chapter.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/read.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/comment.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			background-color: #1E202A;
+		}
+	</style>
+</head>
+<body>
+
+<!-- NAVIGATION BAR ------------------------------------------------------------------------------------>
+<div id="header" class="navbar yamm navbar-fixed-top bgmenucolor kit-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="http://truyentranh.net/">Trang chủ</a></li>
+                <li>
+                    <a href="http://truyentranh.net/danh-sach.tall.html" title="Danh sách">List truyện</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="javascript:void(0);" data-toggle="dropdown">Thể loại
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu hoverblock">
+                        <li>
+                            <!-- Content container to add padding-->
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                	</ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://truyentranh.net/blog">Blog</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            	<li>
+                	<div class="navbar-form navbar-left">
+            			<div class="kit-form">
+                            <img src="images/searchicon.png">
+                        </div>
+                	</div>
+                </li>
+                <li>
+                    <div class="navbar-form navbar-left">
+                        <div class="kit-search-form">
+                            <input type="text" placeholder="Tìm truyện" class="kit-search-form">
+                            <img src="images/searchicon-x.png">
+                        </div>
+                	</div>
+                </li>
+                <li class="dropdown">
+                    <a href="" data-toggle="dropdown" class="user-circle">
+                        <img src="./Thông tin _ Đọc truyện tranh online _ TruyenTranh.net_files/default.png" alt="tatanoi" class="img-circle">
+                        <b class="caret"></b>
+                    </a>
+
+
+
+                    <ul class="usercontent dropdown-menu" style="background-color: #232323">
+                        <li>
+                            <div class="yamm-content" style="background-color: #232323">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain" style="background-color: #232323">
+                                            <a href="http://truyentranh.net/profile.html#">
+                                                <h3 class="username">Thanh Nam</h3>
+                                            </a>
+                                            <span class="status-click">
+                                                <a title="Truyện theo dõi" href="">Truyện theo dõi</a>
+                                                <a href="" title="Chỉnh sửa">Chỉnh sửa</a>
+                                                <a href="" title="Thoát">Thoát</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="follower-status NotificationList" id="notification-content">
+                                            <div class="media media-flowuser">
+                                                <img src="images/loading.gif" class="Loading">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain">
+                                            <a href="" class="view-allmess" title="Xem tất cả thông báo">Xem tất cả thông
+                                                báo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- END NAVIGATION BAR ------------------------------------------------------------------------------------>
+
+
+<!-- CHOOSE CHAPTER ------------------------------------------------------------------------------------>
+
+<div class="row read-title">
+	<h2>YU-GI-OH</h2>
+</div>
+
+<div class="form-group btn-choose-chapter" style="max-width: 100%">
+	<div class="col-md-offset-3 col-md-1">
+		<button type="button" class="btn read-button">Trước</button>
+	</div>
+	<div class="col-md-4">
+		<select class="read-dropdown">
+			<option>??</option>
+			<option>XX</option>
+			<option>YY</option>
+		</select>
+	</div>
+	<div class="col-md-1">
+		<button type="button" class="btn read-button">Sau</button>
+	</div>
+</div>
+<!-- END CHOOSE CHAPTER -------------------------------------------------------------------------------->
+
+<div class="space"></div>
+
+<!-- MANGA PAGE ------------------------------------------------------------------------------------>
+<article>
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<!-- <img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png">
+	<img class="image-center image-margin" src="resources/truyen/one-pieces/chapter 866/1495712812-One-PieceChuong-866-02.png"> -->
+</article>
+<!-- MANGA PAGE  -------------------------------------------------------------------------------->
+
+<div class="space"></div>
+
+<!-- CHOOSE CHAPTER ------------------------------------------------------------------------------------>
+<div class="form-group btn-choose-chapter" style="max-width: 100%">
+    <div class="col-md-offset-3 col-md-1">
+        <button type="button" class="btn read-button">Trước</button>
+    </div>
+    <div class="col-md-4">
+        <select class="read-dropdown">
+            <option>??</option>
+            <option>XX</option>
+            <option>YY</option>
+        </select>
+    </div>
+    <div class="col-md-1">
+        <button type="button" class="btn read-button">Sau</button>
+    </div>
+</div>
+<!-- END CHOOSE CHAPTER -------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+<!-- Comments Form -->
+        <div class="card my-4 col-md-offset-3 col-md-6">
+          <h5 class="card-header card-side">Bình luận:</h5>
+          <div class="card-body" style="padding-bottom:0">
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button class="btn btn-comment" style="float:right">Gửi bình luận</button>
+            </form>
+          </div>
+			
+			<!-- Single Comment -->
+          <div class="media mb-4" style="padding-left:1.25rem;padding-right:1.25rem">
+            <img class="d-flex mr-3 rounded-circle" src="images/optimus-prime-50-50.jpg" alt="">
+            <div class="media-body">
+              <h5 onclick="location.href='Profile.html'" class="mt-0">Optimus Prime</h5>
+              Anh nghĩ nhân tính là gì? Đó là thứ chúng ta vẫn làm. Chúng ta phạm sai lầm. Đôi khi, chính những sai lầm đó dẫn đến những điều kì diệu… 
+            </div>
+          </div>
+
+          <!-- Comment with nested comments -->
+          <div class="media mb-4" style="padding-left:1.25rem;padding-right:1.25rem">
+            <img class="d-flex mr-3 rounded-circle" src="images/megatron-50-50.jpg" alt="">
+            <div class="media-body">
+              <h5 onclick="location.href='Profile.html'" class="mt-0">Megatron</h5>
+              Cậu sẽ là ai nếu không có ta!
+
+              <div class="media mt-4">
+                <img class="d-flex mr-3 rounded-circle" src="images/buzz-50-50.jpg" alt="">
+                <div class="media-body">
+                  <h5 onclick="location.href='Profile.html'" class="mt-0">Buzz Lightyear</h5>
+                  Người ta nói rất khó để chạm đến không gian vô tận. Nhưng ít nhất tôi sẽ cố. Và tôi biết tôi không thể vượt qua được! Nhưng tôi muốn thử sức.
+                </div>
+              </div>
+
+              <div class="media mt-4">
+                <img class="d-flex mr-3 rounded-circle" src="images/kevin-50-50.jpg" alt="">
+                <div class="media-body">
+                  <h5 onclick="location.href='Profile.html'" class="mt-0">Kevin Flynn</h5>
+                  Tôi vẫn mơ về một thế giới mà tôi nghĩ mình sẽ chẳng bao giờ thấy. Và rồi một ngày… tôi ở trong nó!
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+			
+			
+        </div>
+
+
+
+
+
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>

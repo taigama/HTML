@@ -1,0 +1,20 @@
+      
+// extra tag for debug request fallback
+
+   		 var GM_z3rd_1489561905 = '\x3Cscript type\x3D\x22text/javascript\x22\x3E\nvar _abd \x3D _abd || [];\n/* load placement for account: truyentranh, site: http://truyentranh.net, size: 1x1 - web, zone: popup */\n_abd.push([\x221487558399\x22,\x22Popup\x22,\x221487558413\x22]);\n\x3C/script\x3E\n\x3Cscript src\x3D\x22http://media.adnetwork.vn/js/adnetwork.js\x22 type\x3D\x22text/javascript\x22\x3E\x3C/script\x3E\n\x3Cnoscript\x3E\x3Cdiv style\x3D\x22bottom:0;position: fixed;right: 0;\x22\x3E\x3Ca href\x3D\x22http://track.adnetwork.vn/247/adServerNs/zid_1487558413/wid_1487558399/\x22 target\x3D\x22_blank\x22\x3E\x3Cimg src\x3D\x22http://delivery.adnetwork.vn/247/noscript/zid_1487558413/wid_1487558399/\x22 /\x3E\x3C/a\x3E\x3C/div\x3E\x3C/noscript\x3E';
+   		 var GM_zid_1489561905  = 1489561905;
+   		 var GM_ZoneId  = 1489561905;
+		 AdSeax.setCookie('_a3rd1489561905', '0-7', 365);
+		document.write(GM_z3rd_1489561905);
+      
+
+var GM_iWebsiteId = 1489561487;
+
+var GammaTracker = GammaTracker || [];
+    GammaTracker.push({ acc: 99, uid: "l7tbrbeo9wcg" });
+//(function(){
+//    var c=document.createElement('script');c.type='text/javascript';c.async=true;
+//    c.src=('https:' == document.location.protocol ? 'https://' : 'http://') + 'stc.gammaplatform.com/tracker.js';
+//    var el=document.getElementsByTagName('script')[0];el.parentNode.insertBefore(c,el);
+//})();
+

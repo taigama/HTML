@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proflie</title>
+
+	<!-- Bootstrap -->
+	<!-- <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/choose_chapter.css" rel="stylesheet" type="text/css"> 
+	<link href="css/general.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/player.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.auto-complete.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/yamm.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.mCustomScrollbar.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
+
+	<!-- Color of background -->
+	<link href="css/general.css" rel="stylesheet" type="text/css">
+    <link href="css/choose_chapter.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/kit.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="header" class="navbar yamm navbar-fixed-top bgmenucolor kit-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Trang chủ</a></li>
+                <li>
+                    <a href="http://truyentranh.net/danh-sach.tall.html" title="Danh sách">List truyện</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="javascript:void(0);" data-toggle="dropdown">Thể loại
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu hoverblock">
+                        <li>
+                            <!-- Content container to add padding-->
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                	</ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <div class="navbar-form navbar-left">
+                        <div class="kit-search-form">
+                            <input type="text" placeholder="Tìm truyện" class="kit-search-form">
+                            <img src="images/searchicon-x.png">
+                        </div>
+                	</div>
+                </li>
+                <li class="dropdown">
+                    <a href="" data-toggle="dropdown" class="user-circle">
+                        <img src="./Thông tin _ Đọc truyện tranh online _ TruyenTranh.net_files/default.png" alt="tatanoi" class="img-circle">
+                        <b class="caret"></b>
+                    </a>
+
+
+                    <ul class="usercontent dropdown-menu" style="background-color: #4CAF50">
+                        <li>
+                            <div class="yamm-content" style="background-color: #4CAF50">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain" style="background-color: #4CAF50">
+                                            <a href="http://truyentranh.net/profile.html#">
+                                                <h3 class="username">Thanh Nam</h3>
+                                            </a>
+                                            <span class="status-click">
+                                                <a title="Truyện theo dõi" href="">Truyện theo dõi</a>
+                                                <a href="" title="Chỉnh sửa">Chỉnh sửa</a>
+                                                <a href="" title="Thoát">Thoát</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="follower-status NotificationList" id="notification-content">
+                                            <div class="media media-flowuser">
+                                                <img src="images/loading.gif" class="Loading">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain">
+                                            <a href="" class="view-allmess" title="Xem tất cả thông báo">Xem tất cả thông
+                                                báo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container kit-container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="kit-block">
+                <h4>Thanh Nam</h4>
+                <div class="kit-block-avatar">
+                    <img src="images/CT_Chocobo.png">
+                </div>
+                <div class="kit-block-tab">Thông tin người đọc</div>
+                <div class="kit-block-tab">Truyện dã đánh dấu</div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="kit-block">
+                <h4>Truyện đã đánh dấu</h4>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="kit-block-cover">
+                             <img src="images/mangacover.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="kit-block-content">
+                            <div><label>Yu-gi-oh</label></div>
+                            <div><span>Tên khác: </span>Vua trò chơi</div>
+                            <div><span>Thể loại: </span>Shounen</div>
+                            <div><span>Tác giả: </span>Kazuki Takahashi</div>
+                            <div><span>Chương mới: </span>Chương 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kit-hori-line"></div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="kit-block-cover">
+                             <img src="images/mangacover.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="kit-block-content">
+                            <div><label>Yu-gi-oh</label></div>
+                            <div><span>Tên khác: </span>Vua trò chơi</div>
+                            <div><span>Thể loại: </span>Shounen</div>
+                            <div><span>Tác giả: </span>Kazuki Takahashi</div>
+                            <div><span>Chương mới: </span>Chương 1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+
+<footer>
+    <div class="container" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footercontainer">
+                    Đây là footer
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>

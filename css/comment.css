@@ -1,0 +1,129 @@
+.card-header{
+	background-color: #5AC05A;
+	
+	padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-side{
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+	background-color: #5AC05A;
+  	border-color: #5AC05A;
+	color: white;
+}
+mt-4,.my-4{
+	margin-top:1.5rem!important;
+	margin-top: 1.5rem!important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.col-md-6{
+	padding:0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+.btn-comment{
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+	
+	display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+	margin-top: 0!important;
+}
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.mt-0:hover{
+  cursor: pointer;
+}

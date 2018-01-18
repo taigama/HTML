@@ -1,0 +1,197 @@
+.list-manga {
+	margin-top: 30px;
+}
+
+.list-manga .row {
+	margin-bottom: 25px;
+
+}
+
+.list-manga .filter-bar {
+	height: 40px;
+	line-height: 40px;
+	background-color: #5AC05A;
+	color:white;
+	text-align: left; 
+}
+
+.list-manga .filter-bar > div {
+	box-shadow: 0.5px 0px;
+}
+
+.list-manga .filter-bar > div:hover {
+	cursor: pointer;
+	background-color: #62d162;
+}
+
+.list-manga-group {
+	padding: 0px;
+	width: 100%;
+}
+
+.list-manga-group .cover {
+	display:inline-block;
+	vertical-align:top;
+    width: 86px;
+    height: 129px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b7b7b7;
+}
+
+.list-manga-group .cover img {
+	max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.list-manga-group .info {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.list-manga-group .info div  {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-manga-group .info div > span {
+    font-weight: normal;
+}
+
+.list-manga-group div.title {
+	color: black;
+	font-weight: bold;
+	font-size: 21px;
+	margin-bottom: 16px;
+}
+
+.list-tag {
+	margin-top: 30px;
+}
+
+.list-tag .title-bar {
+	height: 40px;
+	line-height: 40px;
+	background-color: #5AC05A;
+	color:white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.list-tag .title-bar:hover {
+	cursor: pointer;
+	background-color: #62d162;
+}
+
+.list-tag .tag-content {
+	margin-top: 3px;
+	background-color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    box-shadow:0px 0px 0px 2px #5AC05A inset;
+}
+
+.tag-col > div:hover {
+	cursor: pointer;
+	color: #62d162;
+
+}
+
+.list-tag .history-content {
+	margin-top: 3px;
+	background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow:0px 0px 0px 2px #5AC05A inset;
+}
+
+.list-tag .cover {
+	display:inline-block;
+	vertical-align:top;
+    width: 50px;
+    height: 75px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #b7b7b7;
+}
+
+.list-tag .cover img {
+	max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.list-tag .list-button {
+	height: 40px;
+	line-height: 40px;
+	background-color: #62d162;
+	color:white;
+	text-align: center;
+}
+
+.list-tag .list-button:hover {
+	background-color: #6aed6a;
+	cursor: pointer;
+}
+
+.list-tag .info div.title {
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+
+.list-tag .info {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.list-tag .info div  {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.list-tag .info div > span {
+    font-weight: normal;
+}
+
+.list-tag .manga {
+	padding-bottom: 10px;
+	/*padding-top: 10px;*/
+	/*border-bottom: 1px solid #6aed6a;*/
+}
+
+.header-bar { 
+	text-align: left;
+	box-shadow: 0 -1px #5AC05A inset;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #5AC05A;
+}
+
+.history .list-manga-group {
+	padding-bottom: 25px;
+	border-bottom: 0.1px solid #6aed6a;
+}
+
+.cover:hover {
+	cursor: pointer;
+}
+
+.title:hover {
+	cursor: pointer;
+}
+
+.info div > span:hover {
+	cursor: pointer;
+	color: #62d162;
+}
+

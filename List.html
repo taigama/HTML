@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proflie</title>
+
+	<!-- Bootstrap -->
+	<!-- <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/choose_chapter.css" rel="stylesheet" type="text/css"> 
+	<link href="css/general.css" rel="stylesheet" type="text/css"> -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/player.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.auto-complete.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/yamm.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.mCustomScrollbar.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
+
+	<!-- Color of background -->
+	<link href="css/general.css" rel="stylesheet" type="text/css">
+    <link href="css/choose_chapter.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/kit.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/list.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="header" class="navbar navbar-fixed-top kit-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar-collapse-1" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="http://truyentranh.net/">Trang chủ</a></li>
+                <li>
+                    <a href="http://truyentranh.net/danh-sach.tall.html" title="Danh sách">List truyện</a>
+                </li>
+                <li class="dropdown ">
+                    <a href="javascript:void(0);" data-toggle="dropdown">Thể loại
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu hoverblock">
+                        <li>
+                            <!-- Content container to add padding-->
+                            <div class="yamm-content">
+                                <div class="row">
+                                    <ul class="col-sm-2 list-unstyled">
+                                	</ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://truyentranh.net/blog">Blog</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <div class="navbar-form navbar-left">
+                        <div class="kit-search-form">
+                            <input type="text" placeholder="Tìm truyện" class="kit-search-form">
+                            <img src="images/searchicon-x.png">
+                        </div>
+                	</div>
+                </li>
+                <li class="dropdown">
+                    <a href="" data-toggle="dropdown" class="user-circle">
+                        <img src="./Thông tin _ Đọc truyện tranh online _ TruyenTranh.net_files/default.png" alt="tatanoi" class="img-circle">
+                        <b class="caret"></b>
+                    </a>
+
+
+                    <ul class="usercontent dropdown-menu" style="background-color: #4CAF50">
+                        <li>
+                            <div class="yamm-content" style="background-color: #4CAF50">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain" style="background-color: #4CAF50">
+                                            <a href="http://truyentranh.net/profile.html#">
+                                                <h3 class="username">Thanh Nam</h3>
+                                            </a>
+                                            <span class="status-click">
+                                                <a title="Truyện theo dõi" href="">Truyện theo dõi</a>
+                                                <a href="" title="Chỉnh sửa">Chỉnh sửa</a>
+                                                <a href="" title="Thoát">Thoát</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="follower-status NotificationList" id="notification-content">
+                                            <div class="media media-flowuser">
+                                                <img src="images/loading.gif" class="Loading">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="welcome-contain">
+                                            <a href="" class="view-allmess" title="Xem tất cả thông báo">Xem tất cả thông
+                                                báo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="navigator" class="kit-navigator">
+    <div class="container">
+        AAAAA
+    </div>
+</div> 
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="list-manga">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="filter-bar">
+                            <div class="col-md-2">Tên</div>
+                            <div class="col-md-2">Tác giả</div>
+                            <div class="col-md-2">Thể loại</div>
+                            <div class="col-md-2">Số chương</div>
+                            <div class="col-md-2">Đánh giá</div>
+                            <div class="col-md-2">Hoàn thành</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Title</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-tag">
+                        <div onclick="toggleShowHide('history-content')" class="title-bar">XEM LỊCH SỬ ĐỌC TRUYỆN</div>
+                        <div id="history-content" class="history-content" style="display: none;"">
+                            <div class="manga">
+                                <div class="cover">
+                                    <img src="images/mangacover.jpg" alt="img"/>
+                                </div>
+                                <div class="info">
+                                    <div class="title">Yu-gi-oh</div>
+                                    <div>Thể loại: <span>Shounen</span></div>
+                                    <div>Chương mới: <span>Chương 1</span></div>
+                                </div>
+                            </div>
+                            <div class="manga">
+                                <div class="cover">
+                                    <img src="images/mangacover.jpg" alt="img"/>
+                                </div>
+                                <div class="info">
+                                    <div class="title">Yu-gi-oh</div>
+                                    <div>Thể loại: <span>Shounen</span></div>
+                                    <div>Chương mới: <span>Chương 1</span></div>
+                                </div>
+                            </div>
+                            <div class="list-button">
+                                XEM THÊM
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-tag">
+                        <div onclick="toggleShowHide('tag-content')" class="title-bar">XEM THỂ LOẠI</div>
+                        <div id="tag-content" class="tag-content">
+                            <div class="row">
+                                <div class="col-md-6 tag-col">
+                                    <div>Tag 1</div>
+                                    <div>Tag 2</div>
+                                    <div>Tag 3</div>
+                                    <div>Tag 4</div>
+                                    <div>Tag 5</div>
+                                </div>
+                                <div class="col-md-6 tag-col">
+                                    <div>Tag 6</div>
+                                    <div>Tag 7</div>
+                                    <div>Tag 8</div>
+                                    <div>Tag 9</div>
+                                    <div>Tag 10</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+    });
+
+    function toggleShowHide(targetId) {
+        var x = document.getElementById(targetId);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</body>
+
+<!-- <footer>
+    <div class="container" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footercontainer">
+                    Đây là footer
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+</html>
