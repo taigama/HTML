@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<!-- saved from url=(0027)http://truyentranh.net/blog -->
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Trang chủ</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang chủ</title>
 
-    <!-- Bootstrap -->
-    <!-- <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/choose_chapter.css" rel="stylesheet" type="text/css"> 
-    <link href="css/general.css" rel="stylesheet" type="text/css"> -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!-- Bootstrap -->
+	<!-- <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/choose_chapter.css" rel="stylesheet" type="text/css"> 
+	<link href="css/general.css" rel="stylesheet" type="text/css"> -->
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/player.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/jquery.auto-complete.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/yamm.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/jquery.mCustomScrollbar.css" media="screen" rel="stylesheet" type="text/css">
-    <link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.min.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.auto-complete.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/yamm.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/slick-theme.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/jquery.mCustomScrollbar.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
 
-    <!-- Color of background -->
-    <link href="css/general.css" rel="stylesheet" type="text/css">
+	<!-- Color of background -->
+	<link href="css/general.css" rel="stylesheet" type="text/css">
     <link href="css/choose_chapter.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/kit.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/list.css" media="screen" rel="stylesheet" type="text/css">
@@ -168,7 +168,8 @@
             <div class="col-md-12">
                 <ol class="breadcrumb">
                     <li><a href="home.html"><i class="fa fa-home"></i></a></li>
-                    <li><a href="blog.html" title="blog">Blog</a></li>
+                    <li><a href="">Tác giả</a></li>
+                    <li><a href="">Kazuki Takahashi</a></li>
                 </ol>
             </div>
         </div>
@@ -178,146 +179,68 @@
 <div class="container">
     <div class="row">
         <div class="col-md-8">
+            <div class="list-manga ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-bar">
+                            TRUYỆN CỦA KAZUKI TAKAHASHI
+                        </div>
+                    </div>
+                </div>
+                <div class="row"> 
+                    <div class="col-md-6">
+                        <div class="list-manga-group"> 
+                            <div class="cover">
+                                <img src="images/mangacover.jpg" alt="img"/>
+                            </div>
+                            <div class="info">
+                                <div class="title">Yugi-Oh</div>
+                                <div>Tên khác: <span>Vua trò chơi</span></div>
+                                <div>Thể loại: <span>Shounen</span></div>
+                                <div>Tác giả: <span>Kazuki Takahashi</span></div>
+                                <div>Chương mới: <span>Chương 1</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="title-cate">Blog Truyện Tranh</h1>
+                    <div class="list-tag">
+                        <div onclick="toggleShowHide('author-content')" class="title-bar">THÔNG TIN TÁC GIẢ</div>
+                        <div id="author-content" class="author-content minfo" style="display: block;"">
+                            <div class="author-avatar">
+                                <img src="images/author.jpg" alt="img"/>
+                            </div>
+                            <div>
+                                    <span class="mlabel">Tên:</span>
+                                    <span class="mtext">Kazuki Takahashi</span>
+                                </div>
+                                <div>
+                                    <span class="mlabel">Ngày sinh:</span>
+                                    <span class="mtext">4/10/1963</span>
+                                </div>
+                                <div>
+                                    <span class="mlabel">Quê quán:</span>
+                                    <span class="mtext">Nhật Bản</span>
+                                </div>
+                                <div>
+                                    <span class="mlabel">Năm hoạt động:</span>
+                                    <span class="mtext">1981 – hiện tại</span>
+                                </div>
+                                <div>
+                                    <span class="mlabel">Nổi bật:</span>
+                                    <span class="mtext">N/A</span>
+                                </div>
+                        </div>
+                        
+                    </div>
                 </div>
-                
+            </div>
 
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/929b4d3dd7145b2cd01bd7299faf971a-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">Top 10 Loli được yêu thích nhất 2017</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 04/09/2017</span></div>
-							<p class="anime-description">Mới đây trên Website CoTvn đã diễn ra một cuộc bình chọn các nhân vật Loli được yêu thích nhất được tính cho đến thời điểm hiện tại. Thật là khó để bình chọn cho nhân vật Loli nào đó trong tất cả những Loli của chúng tôi vì tất cả các Loli của chúng ta đều dễ ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/3d3ad4a3488bc6f7405347123f076a41-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">Các tác phẩm văn học trở nên lầy lội khó đỡ khi ghép vào cảnh phim</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 31/08/2017</span></div>
-							<p class="anime-description">Vợ chồng A Phủ, Tấm Cám...khi được ghép vào những khung cảnh phim hoạt hình thì sẽ trở nên cực kỳ hài hước và bá đạo
-				Một minh chứng cho "độ lầy" cùng sự sáng tạo của các thánh chế trên mạng xã hội là việc sử dụng một cảnh trong phim để minh họa cho một tình ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/2d6e55225d60da8ca9cd621143cfe4f2-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">Đánh đồng anime là hentai, Truyền Hình Vĩnh Long nhận gạch của cộng đồng anime Việt Nam</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 28/08/2017</span></div>
-							<p class="anime-description">Thật ngớ ngẩn nếu cho rằng anime là hentai, có thể đây chỉ là sai lầm trong khâu biên tập của Truyền Hình Vĩnh Long (THVL).
-				Mấy ngày qua, THVL có phát sóng 1 phóng sự với việc chỉ ra hàng loạt mặt trái của Anime, trong đó khía cạnh ecchi được khai ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/9a5ac7e0c8f68fcce38648d4a97e9990-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">5 lý do để ra rạp xem siêu phẩm hài hành động Gintama ngay hôm nay!</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 07/08/2017</span></div>
-							<p class="anime-description">Mùa hè năm nay, siêu phẩm live-action Nhật Bản&nbsp;Gintama (Linh Hồn Bạc)&nbsp;ra mắt trong sự trông ngóng không chỉ là những người đã thuộc lòng cốt truyện, mà còn gây tò mò cho những kẻ ngoại đạo khi hiệu ứng của bộ truyện tranh quá nổi tiếng khiến họ phải lặn lội đến xem ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/c01a2d5286f446e2165ba023581d67ca-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">One Piece sẽ được Hollywood chuyển thể thành phim live-action</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 24/07/2017</span></div>
-							<p class="anime-description">Nhân dịp kỷ niệm 20 năm One Piece chính thức ra mắt, các fan đã được một phen bất ngờ trước thông tin bộ truyện này sẽ được các nhà làm phim Hollywood chuyển thể thành phiên bản live-action
-				Đối với các fan One Piece, giấc mơ vĩ đại hoặc cũng có thể là ác mông kinh hoàng ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/da97eec8d3771972958bab3982266677-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">Chỉ trong thế giới anime mới tồn tại những kiểu tóc "bá đạo" như thế này</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 19/07/2017</span></div>
-							<p class="anime-description">Không chỉ quái dị về hình dạng, đôi khi mái tóc của nhiều nhân vật anime còn có thể được dùng làm... vũ khí có độ sát thương rất cao
-				Anime/manga là một thiên đường thực sự cho các họa sỹ để họ tự do thể hiện trí tưởng tượng phong phú của mình trong việc thiết ...</p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-md-12">
-					<div class="media newsani-cotain">
-						<div class="media-left anine-new">
-							<a href="blog_detail.html">
-								<img src="./blog_data/a4537818791cd30896e401d6bc885e7a-origin.jpg" alt="news1" class="media-object">
-							</a>
-						</div>
-						<div class="media-body" style="height:250px">
-							<a href="blog_detail.html">
-								<h4 class="anine-news">Tại sao khi các siêu nhân biến hình, kẻ địch cứ đứng trơ ra mà không tấn công ?</h4></a>
-							<div class="info-release"><span><i class="fa fa-calendar"></i> 14/07/2017</span></div>
-							<p class="anime-description">Đây có lẽ là thắc mắc từ rất lâu của nhiều thế hệ khán giả đã gắn bó với những bộ phim hoạt hình siêu nhân chống lại kẻ xấu từ thuở ấu thơ
-				Những bộ phim như Thủy thủ Mặt trăng, 5 anh em siêu nhân được nhiều thế hệ say mê qua những trận chiến đánh bại kẻ ...</p>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-			
-			
-
-			
-		</div>
-        <div class="col-md-4">
             <div class="row">
                 <div class="col-md-12">
                     <div class="list-tag">
@@ -383,30 +306,30 @@
                     </div>
                 </div>
             </div>
+            
         </div>
-		
-        
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="pagelist">
-				
-				<div class="pagination">
-					<a href="http://truyentranh.net/blog?p=1" class="page active">1</a>
-					<a href="http://truyentranh.net/blog?p=2" class="page">2</a>
-					<a href="http://truyentranh.net/blog?p=3" class="page">3</a>
-					<a href="http://truyentranh.net/blog?p=4" class="page">4</a>
-					<a href="http://truyentranh.net/blog?p=5" class="page">5</a>
-					<a href="http://truyentranh.net/blog?p=6" class="page">6</a>
-					<span class="dots">...</span>
-					<a href="http://truyentranh.net/blog?p=29" class="page">29</a>
-				</div>                        
-
-			</div>
-		</div>
-	</div>
+    </div>
+</div>
 
 
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+    });
+
+    function toggleShowHide(targetId) {
+        var x = document.getElementById(targetId);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</body>
 
 <footer>
     <div class="container" style="margin-top: 30px">
@@ -422,7 +345,5 @@
         </div>
     </div>
 </footer>
-          
 
-</body>
 </html>

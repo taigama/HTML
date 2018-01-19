@@ -24,12 +24,12 @@
 	<link href="css/app.css" media="screen" rel="stylesheet" type="text/css">
 
 	<!-- Color of background -->
-	<link href="css/general.css" rel="stylesheet" type="text/css">
+    <link href="css/general.css" rel="stylesheet" type="text/css">
     <link href="css/choose_chapter.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/kit.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/list.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/home.css" media="screen" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
@@ -59,6 +59,9 @@
 
                 <li>
                     <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="about.html">Về chúng tôi</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right" style="margin-top: 5px">
@@ -164,129 +167,59 @@
             <div class="col-md-12">
                 <ol class="breadcrumb">
                     <li><a href="home.html"><i class="fa fa-home"></i></a></li>
-                    <li><a href="blog.html" title="blog">Blog</a></li>
-                    <li><a href="">Chỉ trong thế giới anime mới tồn tại những kiểu tóc "bá đạo" như thế này</a></li>
+                    <li><a href="blog.html" title="blog">Trang cá nhân</a></li>
                 </ol>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container kit-container">
     <div class="row">
-        <div class="col-md-8">
-            <div class="list-manga history">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="header-bar">
-                            LỊCH SỬ ĐỌC TRUYỆN CỦA BẠN
-                        </div>
-                    </div>
+        <div class="col-md-4">
+            <div class="kit-block">
+                <h4>Thanh Nam</h4>
+                <div class="kit-block-avatar">
+                    <img src="images/CT_Chocobo.png">
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="list-manga-group"> 
-                            <div class="cover">
-                                <a href="information.html">
-                                    <img src="images/mangacover.jpg" alt="img"/>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="information.html"><div class="title">Yugi-Oh</div></a>
-                                <div>Tên khác: <span>Vua trò chơi</span></div>
-                                <div>Thể loại: <a href="list.html" class="green-hover">Shounen</a></div>
-                                <div>Tác giả: <a href="author.html" class="green-hover">Kazuki Takahashi</a></div>
-                                <div>Chương mới: <a href="read.html" class="green-hover">Chương 1</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="list-manga-group"> 
-                            <div class="cover">
-                                <a href="information.html">
-                                    <img src="images/cover_1.jpg" alt="img"/>
-                                </a>
-                            </div>
-                            <div class="info">
-                                <a href="information.html"><div class="title">Made in Abyss</div></a>
-                                <div>Tên khác: <span>メイドインアビス; 来自深渊</span></div>
-                                <div>Thể loại: 
-                                    <a href="list.html" class="green-hover">Seinen</a>,&nbsp
-                                    <a href="list.html" class="green-hover">Adventure</a>
-                                </div>
-                                <div>Tác giả: <a href="author.html" class="green-hover">TUKUSHI Akihito</a></div>
-                                <div>Chương mới: <a href="read.html" class="green-hover">Chương 1</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="kit-block-tab">Thông tin người đọc</div>
+                <div class="kit-block-tab">Truyện dã đánh dấu</div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="list-tag">
-                        <div onclick="toggleShowHide('history-content')" class="title-bar">XEM LỊCH SỬ ĐỌC TRUYỆN</div>
-                        <div id="history-content" class="history-content" style="display: none;"">
-                            <div class="manga">
-                                <div class="cover">
-                                    <a href="information.html"><img src="images/mangacover.jpg" alt="img"/></a>
-                                </div>
-                                <div class="info">
-                                    <a href="information.html"><div class="title">Yugi-Oh</div></a>
-                                    <div>Thể loại: <span>Shounen</span></div>
-                                    <div>Chương mới: <span>Chương 1</span></div>
-                                </div>
-                            </div>
-                            <div class="manga">
-                                <div class="cover">
-                                    <a href="information.html"><img src="images/cover_1.jpg" alt="img"/></a>
-                                </div>
-                                <div class="info">
-                                    <a href="information.html"><div class="title">Made in Abyss</div></a>
-                                    <div>Thể loại: <span>Shounen</span></div>
-                                    <div>Chương mới: <span>Chương 1</span></div>
-                                </div>
-                            </div>
-                            <a href="history.html"> 
-                                <div class="list-button">
-                                    XEM THÊM
-                                </div>
-                            </a>
+        <div class="col-md-8">
+            <div class="kit-block">
+                <h4>Truyện đã đánh dấu</h4>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="kit-block-cover">
+                             <img src="images/mangacover.jpg">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="kit-block-content">
+                            <div><label>Yu-gi-oh</label></div>
+                            <div><span>Tên khác: </span>Vua trò chơi</div>
+                            <div><span>Thể loại: </span>Shounen</div>
+                            <div><span>Tác giả: </span>Kazuki Takahashi</div>
+                            <div><span>Chương mới: </span>Chương 1</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="list-tag">
-                        <div onclick="toggleShowHide('tag-content')" class="title-bar">XEM THỂ LOẠI</div>
-                        <div id="tag-content" class="tag-content">
-                            <div class="row" style="margin: 15px 0 15px 0">
-                                <div class="col-md-6 tag-col">
-                                    <a href="list.html"><div><span class="green-hover">Shounen</span></div></a>
-                                    <a href="list.html"><div><span class="green-hover">Shoujo</span></div>
-                                    <a href="list.html"><div><span class="green-hover">Adventure</span></div>
-                                    <a href="list.html"><div><span class="green-hover">Seinen</span></div>
-                                    <a href="list.html"><div><span class="green-hover">Supernatural</span></div>
-                                </div>
-                                <div class="col-md-6 tag-col">
-                                    <a href="list.html"><div><span class="green-hover">Martial Arts</span></div></a>
-                                    <a href="list.html"><div><span class="green-hover">Manga</span></div></a>
-                                    <a href="list.html"><div><span class="green-hover">Manhua</span></div></a>
-                                    <a href="list.html"><div><span class="green-hover">Manhwa</span></div></a>
-                                    <a href="list.html"><div><span class="green-hover">Mystery</span></div></a>
-                                </div>
-                            </div>
-                            <a href="list.html"> 
-                                <div class="list-button">
-                                    XEM TOÀN BỘ
-                                </div>
-                            </a>
+                <div class="kit-hori-line"></div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="kit-block-cover">
+                             <img src="images/mangacover.jpg">
                         </div>
-
+                    </div>
+                    <div class="col-md-10">
+                        <div class="kit-block-content">
+                            <div><label>Yu-gi-oh</label></div>
+                            <div><span>Tên khác: </span>Vua trò chơi</div>
+                            <div><span>Thể loại: </span>Shounen</div>
+                            <div><span>Tác giả: </span>Kazuki Takahashi</div>
+                            <div><span>Chương mới: </span>Chương 1</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -294,24 +227,8 @@
     </div>
 </div>
 
-
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-
-    $(document).ready(function () {
-
-    });
-
-    function toggleShowHide(targetId) {
-        var x = document.getElementById(targetId);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-</script>
 </body>
 
 <footer>

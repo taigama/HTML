@@ -90,15 +90,20 @@
 .list-tag .tag-content {
 	margin-top: 3px;
 	background-color: white;
-    padding: 10px 20px 10px 20px;
+	font-size: 15px;
+    padding: 10px 10px 10px 10px;
     text-align: center;
     box-shadow:0px 0px 0px 2px #5AC05A inset;
+}
+
+.tag-col > div {
+	margin-bottom: 5px;
+	display: flex;
 }
 
 .tag-col > div:hover {
 	cursor: pointer;
 	color: #62d162;
-
 }
 
 .list-tag .history-content {
@@ -106,6 +111,40 @@
 	background-color: white;
     padding: 10px 10px 10px 10px;
     box-shadow:0px 0px 0px 2px #5AC05A inset;
+}
+
+.list-tag .author-content {
+	margin-top: 3px;
+	background-color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow:0px 0px 0px 2px #5AC05A inset;
+    font-size: 15px;
+}
+
+.author-content .author-avatar {
+	display: block;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid grey;*/
+	box-shadow: 0 2px #5AC05A;
+	margin-bottom: 10px;
+}
+
+.author-content .author-avatar img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	/*width: 100%;
+	height: 100%;*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .list-tag .cover {
@@ -127,7 +166,7 @@
     width: auto;
 }
 
-.list-tag .list-button {
+.list-button {
 	height: 40px;
 	line-height: 40px;
 	background-color: #62d162;
@@ -135,7 +174,7 @@
 	text-align: center;
 }
 
-.list-tag .list-button:hover {
+.list-button:hover {
 	background-color: #6aed6a;
 	cursor: pointer;
 }
@@ -190,8 +229,35 @@
 	cursor: pointer;
 }
 
-.info div > span:hover {
+.green-hover {
+	color: black;
+	font-weight: normal;
+}
+
+
+.green-hover:hover {
 	cursor: pointer;
 	color: #62d162;
 }
 
+.green-hover-o {
+	color: #5AC05A;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+.green-hover-o: hover {
+	color: #6aed6a;
+	font-weight: normal;
+	font-weight: bold;
+}
+
+/*.info div > span:hover {
+	cursor: pointer;
+	color: #62d162;
+}*/
+
+.no-a a {
+	color: black;
+	font-weight: normal;
+}
